@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All In One App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Akue2cJFOctKF7GMA2wSsVSlMs4Zy7PpLwO9cCNUFuKxzsXo4y394I0529s_N0YomODSMYW9RAgV8j40t7choNf91FMcr-mnQhC8TAfNhVxgUCoeI9VFcNctdXjyVQMXYgYnmQwLG6pcvG4IlTpPKODA9DMOXMGqn_H5CLc-xM3NmPAkjlxOwhKFdwY/s320/155555555555555555-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+<div style="background: linear-gradient(to right, #2c003d, #965fb6); width: 100vw; height: 100vh; position: absolute;"></div>
+
+    <header class="web_app_home_tab_header_bar">
+        <a href="index.html" class="header_logo">
+            NADINA
+        </a>
+
+        <div class="tool_box_area">
+            <div class="header_bar_profile_logIn_btns_box">
+                <button onclick="getStartedBtn();">Get Started</button>
+            </div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Akue2cJFOctKF7GMA2wSsVSlMs4Zy7PpLwO9cCNUFuKxzsXo4y394I0529s_N0YomODSMYW9RAgV8j40t7choNf91FMcr-mnQhC8TAfNhVxgUCoeI9VFcNctdXjyVQMXYgYnmQwLG6pcvG4IlTpPKODA9DMOXMGqn_H5CLc-xM3NmPAkjlxOwhKFdwY/s320/155555555555555555-removebg-preview.png" class="header_bar_profile_btn" id="header_bar_profile_btn" style="visibility: hidden;">
+
+        </div>
+    </header>
+
+
+    <div class="signup_box_area_bg" style="visibility: hidden;" id="signup_box_area_bg">
+        <span style="width: auto; height: auto; position: absolute; top: 20px; right: 20px; cursor: pointer;" onclick="getStartedPageCloseBtn();">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z"/></svg>
+        </span>
+        <div class="logIn_box" style="visibility: hidden;" id="logIn_box">
+            <p class="title">Log In</p>
+            <div class="login_input_box">
+                <input type="email" name="email" id="" placeholder="Enter Email" required>
+                <input type="password" name="password" id="" placeholder="Password" required>
+                <input type="submit" name="Log In" id="" value="Log In" style="width: 395px; cursor: pointer;">
+                <p>Don't have an account</p>
+                 <input type="submit" name="sign up" id="" value="Sign Up" style="width: 395px; cursor: pointer;" onclick="signUpPageBtn();">
+            </div>
+            <div class="logIn_with_other">
+                <p>Log in with</p>
+                <button onclick="alert('Log in with Google')">
+                     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTivBJUv89-7qhlG-jy0n4N6ZMrhCxPzZiBXkPNx4oBHewDc9dSTI6XXKcOiH4Xrv-hSmIHpY230y45pj8o8S1BAy3s0TJjXkrDyUUGmYrgcPl78FKaNsyTwKe306pcSfGc5ALo7oXCbQBsJEuWWwrkk7ImWAZ81ISzG16UCckRosivGl9RPYHh1q-rGY/s320/Untitled_designjybyytubutvjuy-removebg-preview.png" width="30px" height="30px" style="margin-right: 10px;">
+                    <p>Log in with Google</p>
+                </button>
+                <button onclick="alert('Log in with Facebook')">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFl1XDeInqv6eOCsmS2WRWSXGr8uBiZxrA8eF1VStjf48jBxqL1KPn_iCbiJGOfvlFPo3GPuuDbsGuj925xbrnfQJk5XTNzaQl48JS7klExjSfgMARs25ZULXnN3sODodYGqc4754bSvy16pVYByUTMdeQrKLmP9GZnJRwXXM-nxaC74MJV8h_oh6mikA/s320/Untitled_designunbhuguhigh-removebg-preview.png" width="30px" height="30px" style="margin-right: 10px;">
+                    <p>Log in with Facebook</p>
+                </button>
+                <button onclick="alert('Log in with TikTok')">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUS3A1VK3CClUhESNRyYRR6LOtpdkPbQXiwKCiSc2Q1FLMMD28tZxLjTcsFGiO9j9C6XTaiIaCPVjOK-RDzJk141P1PA7b7TcFIP9yCeMD4PGMKu7tznO2yUsft2A-xm5W_i7FNNCTGKMiuvljODZTcaOF4bEveDU_yzSLlwgki8CRgPI4YTNAiQe5itk/s320/Untitled_designfhuruo-removebg-preview.png" width="30px" height="30px" style="margin-right: 10px;">
+                    <p>Log in with TikTok</p>
+                </button>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="signup_box" style="visibility: hidden;" id="signup_box">
+            <p class="title">Sign Up</p>
+            <div class="signup_input_box">
+                <input type="text" name="" id="" placeholder="Full Name" required>
+                <input type="email" name="email" id="" placeholder="Enter Email" required>
+                <input type="password" name="password" id="" placeholder="Password" required>
+                <input type="password" name="password" id="" placeholder="Conform Password" required>
+                <input type="submit" name="sign up" id="" value="Sign Up" style="width: 395px; cursor: pointer;">
+                <p>Already have an account</p>
+                 <input type="submit" name="Log In" id="" value="Log In" style="width: 395px; cursor: pointer;" onclick="logInPageBtn();">
+            </div>
+            <div class="signup_with_other">
+                <p>Sign up with</p>
+                <button onclick="alert('Sign up with Google')">
+                      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTivBJUv89-7qhlG-jy0n4N6ZMrhCxPzZiBXkPNx4oBHewDc9dSTI6XXKcOiH4Xrv-hSmIHpY230y45pj8o8S1BAy3s0TJjXkrDyUUGmYrgcPl78FKaNsyTwKe306pcSfGc5ALo7oXCbQBsJEuWWwrkk7ImWAZ81ISzG16UCckRosivGl9RPYHh1q-rGY/s320/Untitled_designjybyytubutvjuy-removebg-preview.png" width="30px" height="30px" style="margin-right: 10px;">
+                    <p>Sign up with Google</p>
+                </button>
+                <button onclick="alert('Sign up with Facebook')">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFl1XDeInqv6eOCsmS2WRWSXGr8uBiZxrA8eF1VStjf48jBxqL1KPn_iCbiJGOfvlFPo3GPuuDbsGuj925xbrnfQJk5XTNzaQl48JS7klExjSfgMARs25ZULXnN3sODodYGqc4754bSvy16pVYByUTMdeQrKLmP9GZnJRwXXM-nxaC74MJV8h_oh6mikA/s320/Untitled_designunbhuguhigh-removebg-preview.png" width="30px" height="30px" style="margin-right: 10px;">
+                    <p>Sign up with Facebook</p>
+                </button>
+                <button onclick="alert('Sign up with TikTok')">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUS3A1VK3CClUhESNRyYRR6LOtpdkPbQXiwKCiSc2Q1FLMMD28tZxLjTcsFGiO9j9C6XTaiIaCPVjOK-RDzJk141P1PA7b7TcFIP9yCeMD4PGMKu7tznO2yUsft2A-xm5W_i7FNNCTGKMiuvljODZTcaOF4bEveDU_yzSLlwgki8CRgPI4YTNAiQe5itk/s320/Untitled_designfhuruo-removebg-preview.png" width="30px" height="30px" style="margin-right: 10px;">
+                    <p>Sign up with TikTok</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

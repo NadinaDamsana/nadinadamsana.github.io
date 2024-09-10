@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    user-select: none;
+    font-family: comic sans ms;
+}
+.web_app_home_tab_header_bar{
+    width: 100vw;
+    height: 70px;
+    background: linear-gradient(to right, #2c003d, #965fb6);
+    position: absolute;
+    align-items: center;
+}
+.web_app_home_tab_header_bar .header_logo{
+    color: #ffff;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: x-large;
+    margin-left: 20px;
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.web_app_home_tab_header_bar .header_logo:hover{
+    color: #1877F2;
+}
+.web_app_home_tab_header_bar .tool_box_area{
+    background: #ff001100;
+    width: auto;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.web_app_home_tab_header_bar .tool_box_area .header_bar_profile_btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.web_app_home_tab_header_bar .tool_box_area .header_bar_profile_logIn_btns_box{
+    width: auto;
+    height: auto;
+    background-color: #ff000000;
+    padding: 0%;
+    margin-right: -50px;
+}
+.web_app_home_tab_header_bar .tool_box_area .header_bar_profile_logIn_btns_box button{
+    position: relative;
+    height: 35px;
+    width: 130px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s;
+    position: relative;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+}
+.web_app_home_tab_header_bar .tool_box_area .header_bar_profile_logIn_btns_box button:hover{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #ffff;
+    transform: scale(1.05);
+    
+}
+.web_app_home_tab_header_bar .tool_box_area .header_bar_profile_logIn_btns_box button::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000000;
+    transition: top 0.4s;
+    z-index: 0;
+}
+.signup_box_area_bg{
+    /* background: #000000; */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    /* background-image: url('');
+    background-size: cover; */
+    background: linear-gradient(to right, #2c003d, #965fb6);
+    color: #fff;
+
+}
+.signup_box_area_bg .logIn_box{
+    width: 65vw;
+    height: 60vh;
+    background-color: #e0c6ec67;
+    border-radius: 15px;
+    padding: 50px;
+    padding-left: 100px;
+    position: absolute;
+}
+.signup_box_area_bg .logIn_box .title{
+    font-size: xxx-large;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+.signup_box_area_bg .logIn_box .login_input_box{
+    background: #00000000;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.signup_box_area_bg .logIn_box .login_input_box input{
+    width: 370px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    outline: none;
+    background: transparent;
+}
+.signup_box_area_bg .logIn_box .login_input_box input::placeholder{
+    color: #ffffff;
+}
+.signup_box_area_bg .logIn_box .login_input_box a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 1000;
+}
+.signup_box_area_bg .logIn_box .logIn_with_other{
+    background: #00000000;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 105px;
+    top: 120px;
+}
+.signup_box_area_bg .logIn_box .logIn_with_other button{
+    width: 380px;
+    height: 43px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/*  */
+
+
+.signup_box_area_bg .signup_box{
+    width: 65vw;
+    height: 60vh;
+    background-color: #e0c6ec67;
+    border-radius: 15px;
+    padding: 50px;
+    padding-left: 100px;
+    position: absolute;
+}
+.signup_box_area_bg .signup_box .title{
+    font-size: xxx-large;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.signup_box_area_bg .signup_box .signup_input_box{
+    background: #00000000;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.signup_box_area_bg .signup_box .signup_input_box input{
+    width: 370px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    outline: none;
+    background: transparent;
+}
+.signup_box_area_bg .signup_box .signup_input_box input::placeholder{
+    color: #ffffff;
+}
+.signup_box_area_bg .signup_box .signup_input_box a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 1000;
+}
+.signup_box_area_bg .signup_box .signup_with_other{
+    background: #00000000;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 105px;
+    top: 120px;
+}
+.signup_box_area_bg .signup_box .signup_with_other button{
+    width: 380px;
+    height: 43px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
